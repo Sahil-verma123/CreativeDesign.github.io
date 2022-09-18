@@ -1,4 +1,6 @@
 /* Default */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,7 @@
   outline: none;
   list-style-type: none;
   font-weight: 400;
-  font-family: cursive;
+  font-family: 'Rubik', sans-serif;
 }
 html {
   font-size: 62.5%;
@@ -79,13 +81,13 @@ html {
 }
 .section-1-heading {
   font-size: 8rem;
-  font-family: unset;
+  font-family: 'Monoton', cursive;
   position: absolute;
   top: 18vw;
   left: 50%;
   transform: translate(-50%);
   text-shadow: 0.3rem 0.3rem 0.3rem #888;
-  color: #fff;
+  color: blue;
   background-color: #fff;
   border-radius: 0.9rem;
   padding: 0.8rem 1.6rem;
@@ -117,11 +119,12 @@ html {
 .section-heading {
   font-size: 10rem;
   font-weight: bold;
+  font-family: 'Jost', sans-serif;
   text-transform: uppercase;
-  color: #999;
+  color: slateblue;
   text-align: center;
-  opacity: 0.1;
-  text-shadow: 2rem 2rem 2rem #aaa;
+  opacity: 1;
+  text-shadow: 1rem 1rem 1rem skyblue;
 }
 .customers-wrapper {
   display: flex;
